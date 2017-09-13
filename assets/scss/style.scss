@@ -1,0 +1,263 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans)
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,200)
+
+p, a, label, ul, ol, dl, li, strong, div, .top-bar-section ul li > a, time, button, .button
+  font-family: 'Open Sans', sans-serif !important
+
+.accordion
+  .accordion-navigation > a, dd > a
+    font-family: 'Open Sans', sans-serif !important
+
+table, tr, td, thead
+  font-family: 'Open Sans', sans-serif !important
+
+th
+  background: #008C44
+  color: #fff
+  min-width: 200px
+
+h1, h2, h3, h4, h5, h6
+  font-family: "Titillium Web", sans-serif !important
+  text-align: left
+  font-weight: 200 !important
+
+body
+  background: #fff
+  color: #777777
+
+a
+  color: #003254
+  &:hover
+    color: #011e31
+
+.cc
+  > a
+    opacity: 1
+    display: block
+    height: 360px
+    background-color: #003254
+    background-size: cover
+    background-position: center center
+    background-color: #5eadb8
+    > h3
+      padding: 1.25rem
+      color: #fff
+      opacity: 0
+      text-align: center
+      font-size: 24px
+      text-transform: uppercase
+      padding-top: 155px
+  &:hover > a
+    background-image: none !important
+    background-color: #003254
+    animation-name: bvPortfolio
+    animation-duration: 1s
+  > a:hover > h3
+    opacity: 1 !important
+    -webkit-transform: translate3d(0, 0, 0) scale(1)
+    transform: translate3d(0, 0, 0) scale(1)
+
+@keyframes bvPortfolio
+  from
+    background-color: #777777
+
+  to
+    background-color: #003254
+
+
+.title
+  background: #f9f9f9
+  border-bottom: 0px none #efefef
+
+.relevant-portfolio-panel
+  margin: 5rem 0 0
+
+.projectDetails
+  margin: 2rem 0
+
+h1.project-title
+  font-size: 36px
+  color: #606060
+  text-transform: uppercase
+  line-height: 1.147
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.118)
+  margin: 2rem 0
+
+ul
+  margin: 0
+  padding: 0
+  li
+    list-style: none
+
+.button
+  background-color: #003254
+  &:focus, &:hover
+    background-color: #011e31
+    color: #fff
+
+.button-group
+  margin: 1rem 0
+
+.portfolio-panel
+  padding-bottom: 2.25rem
+
+.portfolio-text
+  h3
+    margin-bottom: 0
+    a
+      font-size: 19px
+      font-family: 'Titillium Web'
+      color: #000
+      line-height: 1.263
+  p
+    padding: 1rem 0 0 0
+    font-size: 14px
+    font-family: 'Open Sans'
+    line-height: 1.429
+
+.portfolio .panel
+  padding: 1.25rem 1.25rem 0 1.25rem !important
+  margin-bottom: 0 !important
+  min-height: 250px
+
+.portfolio-link
+  padding: 1rem
+  a
+    font-size: 13.016px
+    font-family: 'Open Sans'
+    color: #5abc56
+    line-height: 1.058
+    text-align: left
+    -moz-transform: matrix(0.77228, 0, 0, 0.764, 0, 0)
+    -webkit-transform: matrix(0.77228, 0, 0, 0.764, 0, 0)
+    -ms-transform: matrix(0.77228, 0, 0, 0.764, 0, 0)
+
+.portfolio-panel a img
+  width: 100%
+
+.portfolio-page, .portfolio-article
+  background: #f9f9f9
+  border-bottom: 0px none #efefef
+
+.portfolio-artilce-headline h2
+  font-size: 18px
+  padding: 20px 0
+  font-family: 'Open Sans' !important
+  margin: 0
+
+.portfolio .columns:last-child
+  float: left
+
+.top-bar
+  background-color: #003254
+  ul
+    background-color: #003254
+
+.quickContactText p
+  font-weight: 700
+  font-size: 14px
+
+ul
+  &.more, &.additionalInfo
+    margin: 2rem 0
+  &.imageGallery li
+    margin: 2rem 0 0 0
+  &.more
+    list-style: none
+    background: #f9f9f9
+    padding: 14px 24px
+    border-radius: 2px
+  &.additionalInfo
+    list-style: none
+  &.more li
+    font-weight: 700
+    font-size: 14px
+    padding: 10px 0
+    border-bottom: 1px solid #f2f2f2
+  &.additionalInfo li
+    padding: 10px 0
+    border-bottom: 1px solid #f2f2f2
+  &.more li strong
+    width: 65px
+    display: block
+    float: left
+  &.additionalInfo li strong
+    width: 65px
+    display: block
+    float: left
+    width: 135px
+
+li.clearfix
+  clear: both
+
+.post-navigation
+  .next a
+    position: fixed
+    top: 50%
+    height: 60px
+    width: 80px
+    background: #003254
+    margin: -30px 0 0 0
+    color: #ffffff
+    z-index: 1
+    cursor: pointer
+    font-size: 0
+    opacity: .33
+  .prev a
+    position: fixed
+    top: 50%
+    height: 60px
+    width: 80px
+    background: #003254
+    margin: -30px 0 0 0
+    color: #ffffff
+    z-index: 1
+    cursor: pointer
+    font-size: 0
+    opacity: .33
+    left: -25px
+    border-radius: 0px 2px 2px 0px
+    -webkit-transition-property: left
+    -webkit-transition-duration: .25s
+    transition-property: left
+    transition-duration: .25s
+  .next a
+    right: -25px
+    border-radius: 2px 0px 0px 2px
+    -webkit-transition-property: right
+    -webkit-transition-duration: .25s
+    transition-property: right
+    transition-duration: .25s
+    &:hover
+      right: 0
+      opacity: 1
+  .prev a
+    &:hover
+      left: 0
+      opacity: 1
+    &:before
+      position: absolute
+      top: 50%
+      margin: -7px 0 0 0
+      line-height: 1
+      font-size: 14px
+      color: #ffffff
+      font-family: 'FontAwesome'
+  .next a:before
+    position: absolute
+    top: 50%
+    margin: -7px 0 0 0
+    line-height: 1
+    font-size: 14px
+    color: #ffffff
+    font-family: 'FontAwesome'
+  .prev a:before
+    right: 25px
+    content: "\f053"
+  .next a:before
+    left: 25px
+    content: "\f054"
+
+.footer-panel
+  background: #1b1b1b
